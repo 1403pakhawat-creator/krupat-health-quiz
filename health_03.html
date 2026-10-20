@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>ข้อสอบวิชาเอกสุขศึกษา ชุดที่ 3 (50 ข้อ)</title>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f7f6;--card:#fff;--ink:#1f2933;--mute:#617080;--line:#d9e2e0;--main:#e91e78;--main-d:#c4155f;--navy:#0b1f4b;--ok:#1b8a3a;--okbg:#e6f6ea;--bad:#c0392b;--badbg:#fdecea;--tip:#fff7e0;--chip:#eaf0fb}
+@media (prefers-color-scheme:dark){:root{--bg:#121816;--card:#1c2522;--ink:#e8efec;--mute:#9bacaa;--line:#31403c;--main:#ff4d94;--main-d:#e63a82;--navy:#8fb0ff;--ok:#58d17a;--okbg:#17321f;--bad:#ff8a7a;--badbg:#3a1d19;--tip:#3a331a;--chip:#1d2a44}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Sarabun',system-ui,sans-serif;font-size:18px;line-height:1.55}
+.wrap{max-width:720px;margin:0 auto;padding:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:14px}
+h1{font-size:1.5rem;margin:0 0 4px}
+.sub{color:var(--mute);margin:0 0 12px}
+.btn{display:block;width:100%;border:0;border-radius:12px;padding:14px;font:inherit;font-weight:700;background:var(--main);color:#fff;cursor:pointer}
+.btn:hover{background:var(--main-d)}
+.band{height:14px;background:#0b1f4b}
+.logo{display:block;margin:0 auto 10px;height:90px}
+.icons{display:flex;justify-content:center;align-items:center;gap:14px;flex-wrap:wrap;margin:8px 0 14px}
+.icons img{height:46px;width:auto}
+.sec img{height:18px;width:auto;vertical-align:-3px;margin-right:6px}
+h1{color:var(--navy)}
+.cover{text-align:center}
+.coverimg{display:block;margin:0 auto 12px;max-height:340px;max-width:100%;border-radius:12px;box-shadow:0 8px 20px rgba(0,0,0,.28)}
+.lbtop{font-size:.85rem;color:var(--mute);margin:0 0 8px}
+.lbrow{display:flex;gap:8px;margin:8px 0}
+.lbrow input{flex:1;font:inherit;padding:10px 12px;border-radius:10px;border:2px solid var(--line);background:var(--card);color:var(--ink);min-width:0}
+.k{display:inline-block;min-width:1.4em;text-align:center;font-size:.8rem;font-weight:700;color:var(--mute);border:1px solid var(--line);border-radius:6px;margin-right:8px;padding:0 4px}
+.kbd{text-align:center;color:var(--mute);font-size:.85rem;margin:6px 0 0}
+.kbd b{color:var(--ink)}
+@media (hover:none){.kbd{display:none}}
+.note{margin-top:8px;font-size:.9rem;color:var(--mute)}
+.report{display:block;margin:10px auto 0;background:none;border:0;color:var(--mute);font:inherit;font-size:.9rem;text-decoration:underline;cursor:pointer}
+.sb{margin:10px 0}.sbt{display:flex;justify-content:space-between;font-size:.95rem;margin-bottom:4px}
+.weak{margin:10px 0 0}
+.hero{background:linear-gradient(135deg,#0b1f4b,#1d3f8f);border-radius:14px;padding:22px 14px 16px;margin:-6px -6px 14px;color:#fff}
+.hero .em{font-size:84px;line-height:1.1;filter:drop-shadow(0 4px 6px rgba(0,0,0,.35))}
+.hero .chip{display:inline-block;background:#e91e78;color:#fff;font-weight:700;font-size:.9rem;border-radius:99px;padding:2px 14px;margin-top:6px}
+.hero h1{color:#fff;margin:8px 0 2px}
+.hero .sub{color:#cfd9f5;margin:0}
+.stats{display:flex;justify-content:center;gap:10px;margin:0 0 14px}
+.stats div{flex:1;background:var(--chip);border-radius:12px;padding:8px 4px}
+.stats b{display:block;font-size:1.3rem;color:var(--navy)}
+.stats small{color:var(--mute)}
+.top{display:flex;justify-content:space-between;align-items:center;color:var(--mute);font-size:.9rem;margin-bottom:6px}
+.bar{height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin-bottom:14px}
+.bar i{display:block;height:100%;background:var(--navy);transition:width .3s}
+.sec{display:inline-block;background:var(--chip,#eef2fb);color:var(--navy);font-size:.85rem;font-weight:600;border-radius:99px;padding:2px 10px;margin-bottom:8px}
+.q{font-weight:700;margin:0 0 14px}
+.opt{display:block;width:100%;text-align:left;font:inherit;color:var(--ink);background:var(--card);border:2px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px;cursor:pointer}
+.opt:hover:not(:disabled){border-color:var(--main)}
+.opt:disabled{cursor:default}
+.opt.right{border-color:var(--ok);background:var(--okbg)}
+.opt.wrong{border-color:var(--bad);background:var(--badbg)}
+.fb{border-radius:12px;padding:14px;margin:6px 0 14px}
+.fb.ok{background:var(--okbg);border-left:5px solid var(--ok)}
+.fb.no{background:var(--badbg);border-left:5px solid var(--bad)}
+.fb b.h{display:block;font-size:1.1rem;margin-bottom:4px}
+.tip{background:var(--tip);border-radius:10px;padding:8px 12px;margin-top:8px}
+.score{font-size:3rem;font-weight:700;color:var(--navy);text-align:center;margin:6px 0}
+.rev{border-top:1px solid var(--line);padding:12px 0}
+.rev small{color:var(--mute)}
+.hide{display:none}
+.home{display:inline-block;color:var(--mute);text-decoration:none;font-size:.9rem;margin-bottom:10px}
+.home:hover{color:var(--main)}
+
+/* ผู้ทำสูงสุดของชุด: ทองให้เกียรติ */
+.top,.lbtop{--g1:#8a5a00;--g2:#c98a00}
+@media (prefers-color-scheme:dark){.top,.lbtop{--g1:#ffd740;--g2:#ffeb99}}
+.top:not(:empty),.lbtop:not(:empty){display:inline-block;font-size:.85rem;font-weight:600;color:var(--g1);
+  background:linear-gradient(90deg,rgba(255,215,64,.22),rgba(255,215,64,.06));border:1px solid rgba(201,138,0,.55);
+  border-radius:99px;padding:2px 12px;margin:2px 0 6px;box-shadow:0 0 10px rgba(255,200,40,.28)}
+.top b,.lbtop b{background:linear-gradient(90deg,var(--g1),var(--g2),var(--g1));background-size:200% 100%;-webkit-background-clip:text;background-clip:text;
+  color:transparent;-webkit-text-fill-color:transparent;animation:goldmove 3s linear infinite}
+@keyframes goldmove{to{background-position:200% 0}}
+@media (prefers-reduced-motion:reduce){.top b,.lbtop b{animation:none}}
+
+/* โลโก้ครูพัด: วงกลมตัดขอบทอง */
+img.logo{border-radius:50%;border:5px solid transparent;aspect-ratio:1/1;width:auto;object-fit:cover;
+  background:linear-gradient(#fff,#fff) padding-box,conic-gradient(from 0deg,#8a6a12,#ffe58a,#c9951c,#fff3b0,#b8860b,#ffe58a,#8a6a12) border-box;
+  box-shadow:0 0 0 2px rgba(255,215,64,.35),0 6px 22px rgba(201,149,28,.55);animation:ringglow 2.8s ease-in-out infinite}
+@keyframes ringglow{0%,100%{box-shadow:0 0 0 2px rgba(255,215,64,.3),0 6px 16px rgba(201,149,28,.4)}50%{box-shadow:0 0 0 3px rgba(255,229,138,.6),0 8px 30px rgba(255,200,40,.8)}}
+@media (prefers-reduced-motion:reduce){img.logo{animation:none}}
+
+/* โลโก้แบรนด์ (หัวข้อ) */
+.duo{display:flex;justify-content:center;align-items:flex-start;gap:10px;margin:4px auto 10px}
+.duo .lg{display:flex;flex-direction:column;align-items:center;gap:6px;max-width:46%}
+.duo .logo{margin:0;height:84px}
+.duo .nm{font-weight:700;font-size:.95rem;line-height:1.25;text-align:center;color:var(--navy)}
+.duo .x{align-self:center;font-size:1.6rem;font-weight:700;color:#c98a00;margin-top:-18px}
+@media (min-width:600px){.duo{gap:22px}.duo .logo{height:110px}.duo .nm{font-size:1.05rem}}
+</style>
+</head>
+<body>
+<div class="band"></div>
+<div class="wrap"><a class="home" href="index.html">← หน้าแรก เลือกชุดข้อสอบ</a><div id="app"></div></div>
+<script>
+const DATA = {"group": "ข้อสอบวิชาเอกสุขศึกษา (ครูผู้ช่วย)", "badge": "ชุดที่ 3", "emoji": "🚑", "title": "ข้อสอบวิชาเอกสุขศึกษา ชุดที่ 3 (50 ข้อ)", "subtitle": "แนวข้อสอบสุขศึกษา สอบครูผู้ช่วย • 50 ข้อ พร้อมเฉลยและคำอธิบาย", "note": "ข้อสอบแนวสุขศึกษาที่ทีมครูพัดเรียบเรียงใหม่ จากหลักความรู้ที่ออกบ่อยในข้อสอบครูผู้ช่วย (ไม่ใช่ข้อสอบจริง) ตรวจเฉลยและเพิ่มคำอธิบายโดยทีมครูพัด", "sections": {"1": "สายด่วนและหน่วยงาน", "2": "วัคซีนและภูมิคุ้มกัน", "3": "ปฐมพยาบาลและเหตุฉุกเฉิน", "4": "โรคติดต่อและพาหะ", "5": "โรคติดต่อทางเพศสัมพันธ์และอนามัยเจริญพันธุ์", "6": "อาชีวอนามัยและความปลอดภัย", "7": "พันธุศาสตร์", "8": "กายวิภาคและสรีรวิทยา", "9": "โภชนาการ", "10": "ยาและสมุนไพร", "11": "สารเสพติดและกฎหมาย", "12": "วัย สุขภาพจิต และอาหารปลอดภัย"}, "items": [{"no": 1, "dom": 5, "stem": "วิธีที่ป้องกันโรคติดต่อทางเพศสัมพันธ์ได้ดีที่สุดคือข้อใด", "opts": ["การล้างอวัยวะเพศด้วยน้ำเกลือหลังมีเพศสัมพันธ์", "การกินยาปฏิชีวนะป้องกันก่อนมีเพศสัมพันธ์ทุกครั้ง", "การใช้ถุงยางอนามัยทุกครั้งที่มีเพศสัมพันธ์", "การดื่มน้ำสมุนไพรเป็นประจำทุกวัน"], "ans": 2, "expl": "ถุงยางอนามัยช่วยกั้นเชื้อ ส่วนวิธีอื่นไม่ได้ผลแน่นอน", "mn": "ป้องกัน STI = ถุงยาง", "uid": "health_03:s001"}, {"no": 2, "dom": 2, "stem": "วัคซีนใดป้องกันมะเร็งปากมดลูก", "opts": ["BCG", "OPV", "DTP", "HPV"], "ans": 3, "expl": "HPV ป้องกันการติดเชื้อไวรัสที่ก่อมะเร็งปากมดลูกและหูดหงอนไก่", "mn": "HPV = ปากมดลูก", "uid": "health_03:s002"}, {"no": 3, "dom": 4, "stem": "การล้างมือด้วยสบู่ช่วยตัดห่วงโซ่การติดเชื้อที่ส่วนใด", "opts": ["แหล่งรังโรคในสัตว์", "เชื้อก่อโรคกลายเป็นยา", "ผู้รับเชื้อสร้างภูมิทันที", "ทางถ่ายทอดเชื้อ (ผ่านการสัมผัส)"], "ans": 3, "expl": "การล้างมือกำจัดเชื้อจากมือที่เป็นทางถ่ายทอด", "mn": "ล้างมือ = ตัดทางถ่ายทอด", "uid": "health_03:s003"}, {"no": 4, "dom": 8, "stem": "ส่วนใดของฟันแข็งแรงที่สุดในร่างกาย", "opts": ["โพรงฟัน", "เนื้อฟัน", "เคลือบฟัน (Enamel)", "รากฟัน"], "ans": 2, "expl": "Enamel เป็นเนื้อเยื่อที่แข็งที่สุดของร่างกาย", "mn": "เคลือบฟัน = แข็งสุด", "uid": "health_03:s004"}, {"no": 5, "dom": 6, "stem": "เลขทะเบียน อย. บนผลิตภัณฑ์อาหารและเครื่องสำอางมีประโยชน์อย่างไร", "opts": ["ตรวจสอบได้ว่าผลิตภัณฑ์ผ่านการขึ้นทะเบียน/จดแจ้งแล้ว", "ยืนยันว่าสินค้านั้นมีราคาถูกกว่าท้องตลาดเสมอ", "แสดงว่าสินค้านั้นนำเข้าจากต่างประเทศเท่านั้น", "รับรองว่าสินค้านั้นรักษาโรคได้ทุกโรคอย่างแน่นอน"], "ans": 0, "expl": "เลข อย. ช่วยให้ตรวจสอบการขึ้นทะเบียนหรือจดแจ้งได้", "mn": "เลข อย. = ตรวจสอบได้", "uid": "health_03:s005"}, {"no": 6, "dom": 12, "stem": "พิษของปลาปักเป้าส่งผลต่อระบบใด", "opts": ["ระบบผิวหนังเท่านั้น", "ระบบขับถ่าย", "ระบบย่อยอาหาร", "ระบบประสาทและกล้ามเนื้อ"], "ans": 3, "expl": "Tetrodotoxin ยับยั้งช่องโซเดียมของเซลล์ประสาท ทำให้อัมพาตและหายใจล้มเหลว", "mn": "ปักเป้า → ประสาท/กล้ามเนื้อ", "uid": "health_03:s006"}, {"no": 7, "dom": 7, "stem": "โรคธาลัสซีเมียถ่ายทอดทางพันธุกรรมแบบใด", "opts": ["ยีนด้อยบนโครโมโซม Y", "ยีนด้อยบนออโตโซม", "ยีนเด่นบนโครโมโซมเพศ", "ไม่ถ่ายทอดทางพันธุกรรม"], "ans": 1, "expl": "ธาลัสซีเมียเป็นโรคยีนด้อยบนออโตโซม ต้องได้ยีนผิดปกติจากพ่อและแม่", "mn": "ธาลัสซีเมีย = ออโตโซมด้อย", "uid": "health_03:s007"}, {"no": 8, "dom": 8, "stem": "เส้นประสาทสมอง (Cranial nerves) ของมนุษย์มีกี่คู่", "opts": ["12 คู่", "7 คู่", "24 คู่", "31 คู่"], "ans": 0, "expl": "เส้นประสาทสมอง 12 คู่ ส่วนเส้นประสาทไขสันหลัง 31 คู่", "mn": "สมอง 12 คู่ ไขสันหลัง 31 คู่", "uid": "health_03:s008"}, {"no": 9, "dom": 3, "stem": "เมื่อพบผู้หมดสติ ควรประเมินสิ่งใดเป็นอันดับแรก", "opts": ["การหายใจและชีพจร", "อุณหภูมิของร่างกาย", "รอยแผลตามร่างกาย", "เสื้อผ้าที่สวมใส่"], "ans": 0, "expl": "การหายใจและการไหลเวียนเลือดเกี่ยวกับชีวิตโดยตรง", "mn": "หมดสติ: ดูหายใจ/ชีพจร", "uid": "health_03:s009"}, {"no": 10, "dom": 5, "stem": "โรคใดต่อไปนี้เกิดจากโปรโตซัว", "opts": ["หนองใน (Gonorrhea) จากแบคทีเรีย", "หูดหงอนไก่ (HPV) จากไวรัส", "ซิฟิลิส (Syphilis) จากแบคทีเรีย", "ทริโคโมแนส (Trichomoniasis)"], "ans": 3, "expl": "ทริโคโมแนสเกิดจากโปรโตซัว Trichomonas vaginalis", "mn": "Trichomonas = โปรโตซัว", "uid": "health_03:s010"}, {"no": 11, "dom": 3, "stem": "เลือดกำเดาไหล ควรปฐมพยาบาลอย่างไร", "opts": ["สั่งน้ำมูกแรงๆ เพื่อให้เลือดหยุดไหล", "นั่งตัวตรง ก้มศีรษะไปด้านหน้า บีบปีกจมูก", "ใช้นิ้วล้วงจมูกเพื่อเอาก้อนเลือดออก", "นอนหงายแหงนหน้าและกลืนเลือดลงคอ"], "ans": 1, "expl": "ก้มหน้าลดการสำลักเลือดและบีบปีกจมูกเพื่อห้ามเลือด", "mn": "กำเดา: ก้มหน้า บีบจมูก", "uid": "health_03:s011"}, {"no": 12, "dom": 4, "stem": "วิธีควบคุมโรคไข้เลือดออกที่ได้ผลที่สุดคือข้อใด", "opts": ["กำจัดแหล่งเพาะพันธุ์ลูกน้ำยุงลาย", "ใช้หน้ากากอนามัยอย่างเดียว", "ห้ามคนออกจากบ้านตลอดปี", "ฉีดยาปฏิชีวนะทุกคน"], "ans": 0, "expl": "ยุงลายวางไข่ในน้ำขัง การกำจัดแหล่งน้ำขังตัดวงจรได้ดี", "mn": "ไข้เลือดออก: กำจัดลูกน้ำ", "uid": "health_03:s012"}, {"no": 13, "dom": 10, "stem": "ยาที่มีเลข 'ยาอันตราย' ควรซื้อและใช้อย่างไร", "opts": ["ใช้ตามเพื่อนแนะนำโดยไม่ต้องถามเภสัชกร", "ใช้ปริมาณมากกว่าที่ฉลากกำหนดเพื่อเร่งผลการรักษา", "ซื้อจากร้านยาที่มีเภสัชกรและใช้ตามคำแนะนำ", "ซื้อจากรถเร่ขายยาริมทางที่ราคาถูกกว่า"], "ans": 2, "expl": "ยาอันตรายต้องจ่ายโดยเภสัชกร", "mn": "ยาอันตราย = ผ่านเภสัชกร", "uid": "health_03:s013"}, {"no": 14, "dom": 2, "stem": "วัคซีน BCG ป้องกันโรคใด", "opts": ["หัด", "ไอกรน", "วัณโรค", "โปลิโอ"], "ans": 2, "expl": "BCG (Bacillus Calmette-Guérin) ป้องกันวัณโรค", "mn": "BCG = วัณโรค", "uid": "health_03:s014"}, {"no": 15, "dom": 7, "stem": "เหตุใดฝาแฝดแท้จึงเป็นเพศเดียวกันเสมอ", "opts": ["เกิดจากไซโกตเดียวกัน มีพันธุกรรมเหมือนกัน", "เกิดจากไข่สองใบ จึงมีเพศเดียวกันโดยบังเอิญ", "เกิดจากอสุจิ Y เสมอ จึงเป็นเพศชายทุกคู่", "เกิดจากฮอร์โมนของแม่ที่กำหนดเพศให้เหมือนกัน"], "ans": 0, "expl": "แฝดแท้แยกจากไซโกตเดียว จึงมีโครโมโซมเพศเดียวกัน", "mn": "แฝดแท้ = ไซโกตเดียว = เพศเดียวกัน", "uid": "health_03:s015"}, {"no": 16, "dom": 11, "stem": "สถานที่ที่บำบัดรักษาและฟื้นฟูผู้ติดยาเสพติดของไทยที่มีชื่อเสียงคือข้อใด", "opts": ["ศิริราช", "รามาธิบดี", "ธัญญารักษ์", "จุฬาลงกรณ์"], "ans": 2, "expl": "สถาบัน/ศูนย์ธัญญารักษ์เป็นหน่วยบำบัดรักษาผู้ติดยาเสพติด", "mn": "บำบัดยาเสพติด = ธัญญารักษ์", "uid": "health_03:s016"}, {"no": 17, "dom": 3, "stem": "ผู้ป่วยหมดสติแต่ยังหายใจและมีชีพจร ควรจัดท่าอย่างไรหากต้องรอรถพยาบาล", "opts": ["จัดท่านอนตะแคงกึ่งคว่ำ (Recovery position)", "จัดท่านอนหงายหนุนหมอนสูงให้สบาย", "จัดท่ายืนพยุงตัวแล้วพาเดินช้าๆ", "จัดท่านั่งพิงกำแพงตรงๆ ให้ตื่นตัว"], "ans": 0, "expl": "ท่าตะแคงกึ่งคว่ำช่วยให้ทางเดินหายใจโล่งและกันสำลักเมื่ออาเจียน", "mn": "หมดสติยังหายใจ = ตะแคง", "uid": "health_03:s017"}, {"no": 18, "dom": 6, "stem": "เสียงดังเกินกี่เดซิเบลเป็นเวลานานทำให้เสี่ยงหูตึงจากเสียง", "opts": ["เกิน 20 เดซิเบล", "เกิน 5 เดซิเบล", "เกิน 40 เดซิเบล", "เกิน 85 เดซิเบล"], "ans": 3, "expl": "เสียงเกิน 85 dB นานๆ ทำลายเซลล์ขนในหูชั้นใน", "mn": "เสียงดัง > 85 dB", "uid": "health_03:s018"}, {"no": 19, "dom": 1, "stem": "สายด่วน 1669 ให้บริการเกี่ยวกับเรื่องใด", "opts": ["การแพทย์ฉุกเฉิน", "สิทธิบัตรทอง", "การเลิกบุหรี่", "การร้องเรียนผู้บริโภค"], "ans": 0, "expl": "1669 คือระบบการแพทย์ฉุกเฉิน (EMS) ให้บริการตลอด 24 ชั่วโมง", "mn": "1669 = EMS", "uid": "health_03:s019"}, {"no": 20, "dom": 10, "stem": "หากผู้ป่วยแพ้ยา ควรทำอย่างไร", "opts": ["แจ้งแพทย์/เภสัชกรและจดชื่อยาที่แพ้ไว้ในบัตรแพ้ยา", "ให้ผู้อื่นลองกินแทนเพื่อดูว่ามีอาการหรือไม่", "ปกปิดเรื่องแพ้ยาไว้ไม่ต้องบอกใคร", "กินยาชนิดนั้นซ้ำเพื่อทดสอบว่ายังแพ้อยู่หรือไม่"], "ans": 0, "expl": "บัตรแพ้ยาช่วยป้องกันการได้รับยาซ้ำ", "mn": "แพ้ยา: จดบัตรแพ้ยา", "uid": "health_03:s020"}, {"no": 21, "dom": 7, "stem": "โรคฮีโมฟีเลีย (เลือดไหลไม่หยุด) ถ่ายทอดแบบใด", "opts": ["ยีนด้อยบนออโตโซม", "ยีนเด่นบนโครโมโซม Y", "ยีนด้อยบนโครโมโซม X", "ยีนเด่นบนออโตโซม"], "ans": 2, "expl": "ฮีโมฟีเลียเป็น X-linked recessive พบในชายมากกว่า", "mn": "ฮีโมฟีเลีย = X ด้อย", "uid": "health_03:s021"}, {"no": 22, "dom": 5, "stem": "โรคซิฟิลิสในระยะที่ 2 ผู้ป่วยมักมีอาการเด่นอย่างไร", "opts": ["ตุ่มน้ำใสที่ปากเท่านั้น", "ไม่มีอาการใดๆ เสมอ", "ผื่นทั่วตัวรวมทั้งฝ่ามือฝ่าเท้า", "แผลริมแข็งที่ไม่เจ็บเท่านั้น"], "ans": 2, "expl": "ซิฟิลิสระยะ 2 มีผื่นกระจายทั่วตัวรวมถึงฝ่ามือฝ่าเท้า", "mn": "ซิฟิลิสระยะ 2 = ผื่น", "uid": "health_03:s022"}, {"no": 23, "dom": 11, "stem": "ก๊าซพิษในควันบุหรี่ที่ลดความสามารถของเลือดในการนำออกซิเจนคือข้อใด", "opts": ["คาร์บอนมอนอกไซด์", "ฮีเลียม", "ออกซิเจน", "ไนโตรเจน"], "ans": 0, "expl": "คาร์บอนมอนอกไซด์จับกับฮีโมโกลบินแทนออกซิเจน", "mn": "CO = ลดการขนออกซิเจน", "uid": "health_03:s023"}, {"no": 24, "dom": 10, "stem": "หากลืมรับประทานยาก่อนอาหารและนึกได้หลังกินอาหารเสร็จแล้ว ควรทำอย่างไรโดยทั่วไป", "opts": ["ซื้อยาชุดใหม่ทุกครั้งที่ลืมกินยาตามเวลา", "หยุดยาไปเลยตลอดชีวิตโดยไม่ต้องปรึกษา", "ปรึกษาเภสัชกรหรืออ่านฉลาก และอย่ากินยาเพิ่มสองเท่าในมื้อถัดไป", "กินยาเพิ่มเป็นสองเท่าในมื้อถัดไปเพื่อชดเชย"], "ans": 2, "expl": "การกินยาซ้ำสองเท่าเสี่ยงเกินขนาด ควรปฏิบัติตามคำแนะนำเภสัชกร", "mn": "ลืมยา: ถามเภสัชกร ไม่กินเบิ้ล", "uid": "health_03:s024"}, {"no": 25, "dom": 12, "stem": "ครอบครัวเดี่ยว (Nuclear family) ประกอบด้วยใคร", "opts": ["คนเดียว", "พ่อแม่ ลูก และปู่ย่าตายาย", "ญาติทั้งหมูบ้าน", "พ่อ แม่ และลูก"], "ans": 3, "expl": "ครอบครัวเดี่ยวมีเฉพาะพ่อแม่และบุตร", "mn": "เดี่ยว = พ่อแม่ลูก", "uid": "health_03:s025"}, {"no": 26, "dom": 6, "stem": "อาชีพที่ต้องยืนนานๆ มักเสี่ยงต่อปัญหาใด", "opts": ["หูตึง", "เส้นเลือดขอดและปวดขา", "ผิวหนังติดเชื้อรา", "ตาบอดสี"], "ans": 1, "expl": "การยืนนานทำให้เลือดดำที่ขาไหลกลับไม่ดี", "mn": "ยืนนาน = เส้นเลือดขอด", "uid": "health_03:s026"}, {"no": 27, "dom": 1, "stem": "เกิดอุบัติเหตุรถชน ผู้บาดเจ็บหมดสติ ควรโทรแจ้งสายด่วนใดเป็นอันดับแรก", "opts": ["1330", "1300", "1422", "1669"], "ans": 3, "expl": "1669 คือสายด่วนการแพทย์ฉุกเฉิน ส่งรถพยาบาลและทีมกู้ชีพ", "mn": "ฉุกเฉิน = 1669", "uid": "health_03:s027"}, {"no": 28, "dom": 5, "stem": "ช่วงการคลอดปกติแบ่งเป็นกี่ระยะ", "opts": ["5 ระยะ", "1 ระยะ", "2 ระยะ", "3 ระยะ"], "ans": 3, "expl": "ระยะที่ 1 ปากมดลูกเปิด ระยะที่ 2 คลอดทารก ระยะที่ 3 คลอดรก", "mn": "คลอด 3 ระยะ", "uid": "health_03:s028"}, {"no": 29, "dom": 1, "stem": "ข้อใดจับคู่หมายเลขสายด่วนกับหน่วยงานได้ถูกต้อง", "opts": ["1422 – กรมควบคุมโรค", "1422 – สำนักงานคณะกรรมการคุ้มครองผู้บริโภค", "1422 – กรมสุขภาพจิต", "1422 – สำนักงานคณะกรรมการอาหารและยา"], "ans": 0, "expl": "1422 เป็นสายด่วนกรมควบคุมโรค", "mn": "1422 = กรมควบคุมโรค", "uid": "health_03:s029"}, {"no": 30, "dom": 8, "stem": "ผู้ที่หลั่งฮอร์โมนไทรอกซินมากเกินไปมีอาการอย่างไร", "opts": ["ง่วงนอน น้ำหนักเพิ่ม หัวใจเต้นช้า ตัวเย็น", "กระหายน้ำน้อยลงและปัสสาวะลดลงอย่างมาก", "ระดับน้ำตาลในเลือดต่ำผิดปกติและมือเท้าเย็น", "น้ำหนักลด ใจสั่น หัวใจเต้นเร็ว เหงื่อออกมาก"], "ans": 3, "expl": "ไทรอกซินเพิ่มการเผาผลาญ จึงเกิดอาการตื่นเต้นเต้นเร็ว", "mn": "ไทรอกซินเกิน = เร็ว", "uid": "health_03:s030"}, {"no": 31, "dom": 9, "stem": "เด็กที่ขาดโปรตีนมาก มีอาการผอม หัวโต พุงป่อง บวม เรียกว่าโรคอะไร", "opts": ["ควาชิออร์กอร์ (ตานขโมย)", "โลหิตจาง", "เหน็บชา", "คอพอก"], "ans": 0, "expl": "ขาดโปรตีนทำให้เกิดควาชิออร์กอร์ มีอาการบวมและท้องป่อง", "mn": "ตานขโมย = ขาดโปรตีน", "uid": "health_03:s031"}, {"no": 32, "dom": 3, "stem": "ยาที่ใช้ช่วยชีวิตผู้ป่วยภาวะแพ้รุนแรงเป็นอันดับแรกคือข้อใด", "opts": ["วิตามินซีขนาดสูงชนิดเม็ดฟู่", "ยาระบายชนิดน้ำเพื่อล้างพิษ", "ยาลดไข้พาราเซตามอลชนิดเม็ด", "อะดรีนาลีน (Epinephrine)"], "ans": 3, "expl": "Epinephrine ฉีดเข้ากล้ามเนื้อช่วยขยายหลอดลมและเพิ่มความดัน", "mn": "แพ้รุนแรง = Epinephrine", "uid": "health_03:s032"}, {"no": 33, "dom": 4, "stem": "โรคที่พบเป็นประจำในพื้นที่หนึ่งๆ ตลอดเวลาเรียกว่าอะไร", "opts": ["Pandemic", "โรคประจำถิ่น (Endemic)", "โรคจากอุบัติเหตุ", "โรคอุบัติใหม่"], "ans": 1, "expl": "Endemic คือโรคที่พบประจำในพื้นที่", "mn": "Endemic = ประจำถิ่น", "uid": "health_03:s033"}, {"no": 34, "dom": 8, "stem": "ม่านตา (Iris) ทำหน้าที่ใด", "opts": ["รับภาพสีและภาพที่ชัดเจนในที่สว่างทั้งหมด", "ปรับขนาดรูม่านตาเพื่อควบคุมปริมาณแสงที่เข้าตา", "โฟกัสแสงให้ตกที่จอตาเป็นหน้าที่หลัก", "สร้างน้ำตาเพื่อหล่อลื่นและป้องกันเชื้อโรค"], "ans": 1, "expl": "ม่านตาควบคุมขนาดรูม่านตา (pupil) เพื่อปรับแสง", "mn": "Iris = ปรับแสง", "uid": "health_03:s034"}, {"no": 35, "dom": 9, "stem": "ข้อความบนฉลากอาหารว่า 'ไม่มีน้ำตาล' ผู้บริโภคควรตัดสินใจอย่างไรเมื่อต้องการควบคุมน้ำหนัก", "opts": ["ซื้อทันทีเพราะไม่มีน้ำตาลจึงกินได้ไม่จำกัด", "อ่านพลังงาน ไขมัน และส่วนประกอบทั้งหมด ไม่เชื่อข้อความเดียว", "ดูเฉพาะราคาและยี่ห้อสินค้าที่โฆษณาบ่อยๆ", "เชื่อข้อความบนฉลากทุกข้อโดยไม่ตรวจส่วนประกอบ"], "ans": 1, "expl": "สินค้าไม่มีน้ำตาลอาจยังมีพลังงานจากไขมันหรือแป้ง", "mn": "อ่านฉลากรอบด้าน", "uid": "health_03:s035"}, {"no": 36, "dom": 8, "stem": "ฮอร์โมนอะดรีนาลินส่งผลต่อหัวใจอย่างไร", "opts": ["ลดอัตราการเต้นของหัวใจให้ช้าลง", "เพิ่มอัตราการเต้นของหัวใจ", "ทำให้หัวใจหยุดเต้นเป็นเวลาสั้นๆ", "ไม่ส่งผลต่อหัวใจและความดันเลือดใดๆ"], "ans": 1, "expl": "อะดรีนาลินเตรียมร่างกายสู้หรือหนี เพิ่มชีพจรและความดัน", "mn": "อะดรีนาลิน = เร่งหัวใจ", "uid": "health_03:s036"}, {"no": 37, "dom": 3, "stem": "แผ่นนำไฟฟ้าของ AED ควรติดที่ตำแหน่งใด", "opts": ["ที่หลังมือและข้อมือของผู้ป่วยทั้งสองข้าง", "ใต้กระดูกไหปลาร้าขวา และใต้ราวนมซ้าย (ซี่โครงซ้าย)", "ที่หน้าผากและท้ายทอยของผู้ป่วยทั้งสองด้าน", "ที่หน้าท้องทั้งสองแผ่นเรียงกันเหนือสะดือ"], "ans": 1, "expl": "ตำแหน่งตามภาพบนแผ่น ใต้ไหปลาร้าขวาและด้านข้างหน้าอกซ้าย", "mn": "แปะ: ไหปลาร้า-ซี่โครงซ้าย", "uid": "health_03:s037"}, {"no": 38, "dom": 8, "stem": "ฮอร์โมนอินซูลินสร้างจากอวัยวะใด", "opts": ["กระเพาะอาหาร", "ไต", "ตับอ่อน", "ตับ"], "ans": 2, "expl": "อินซูลินสร้างจากเซลล์เบต้าของตับอ่อน", "mn": "อินซูลิน = ตับอ่อน", "uid": "health_03:s038"}, {"no": 39, "dom": 9, "stem": "โรคโลหิตจางจากการขาดธาตุเหล็กมีลักษณะอย่างไร", "opts": ["ผมหงอกทันที", "เหนื่อยง่าย ซีด เพลีย", "กระดูกอ่อนตัว", "บวมน้ำทั่วตัว"], "ans": 1, "expl": "ธาตุเหล็กจำเป็นต่อการสร้างฮีโมโกลบิน ขาดจึงซีดและเพลีย", "mn": "ขาดเหล็ก = โลหิตจาง", "uid": "health_03:s039"}, {"no": 40, "dom": 1, "stem": "ข้อใดจับคู่หมายเลขสายด่วนกับงานบริการได้ถูกต้อง", "opts": ["1600 – แจ้งเหตุเพลิงไหม้", "1600 – ร้องเรียนผู้บริโภค", "1600 – แจ้งเบาะแสยาเสพติด", "1600 – ปรึกษาเลิกบุหรี่"], "ans": 3, "expl": "1600 คือสายด่วนเลิกบุหรี่", "mn": "1600 = บุหรี่", "uid": "health_03:s040"}, {"no": 41, "dom": 10, "stem": "พืชใดต่อไปนี้ถูกจัดเป็นสารเสพติดธรรมชาติที่ต้องควบคุม", "opts": ["ตะไคร้หอม", "ใบกระท่อม", "กระเจี๊ยบแดง", "ใบมะกรูด"], "ans": 1, "expl": "ใบกระท่อมมีสารที่ออกฤทธิ์ต่อระบบประสาท และถูกควบคุมตามกฎหมายเฉพาะ", "mn": "กระท่อม = สารเสพติดธรรมชาติ", "uid": "health_03:s041"}, {"no": 42, "dom": 10, "stem": "วัตถุประสงค์ของการให้วิตามินและแร่ธาตุเสริมอาหารควรเป็นอย่างไร", "opts": ["ใช้แทนอาหารมื้อหลักได้ทุกมื้อโดยไม่ต้องกินข้าว", "กินเท่าไรก็ได้เพราะไม่มีผลข้างเคียงใดเลย", "ให้เสริมเมื่อจำเป็นตามคำแนะนำ ไม่ใช้แทนอาหารหลัก", "ให้เด็กทุกคนกินทุกวันโดยไม่ต้องปรึกษาผู้ใด"], "ans": 2, "expl": "อาหารเสริมใช้เพื่อเสริมส่วนที่ขาด ไม่ใช่แทนอาหารปกติ", "mn": "อาหารเสริม = เสริม ไม่ใช่แทน", "uid": "health_03:s042"}, {"no": 43, "dom": 2, "stem": "เหตุใดจึงไม่ควรเก็บวัคซีนไว้ในช่องแช่แข็งทั่วไป", "opts": ["วัคซีนจะกลายเป็นยาพิษทันที", "ช่องแช่แข็งไม่มีไฟฟ้า", "วัคซีนต้องเก็บที่อุณหภูมิห้องเท่านั้น", "วัคซีนส่วนใหญ่เสื่อมสภาพเมื่อแข็งตัว"], "ans": 3, "expl": "วัคซีนหลายชนิดเสียประสิทธิภาพเมื่อเยือกแข็ง ต้องเก็บ 2–8°C", "mn": "วัคซีน ห้ามแช่แข็ง", "uid": "health_03:s043"}, {"no": 44, "dom": 6, "stem": "เหตุใดสถานที่ทำงานควรมีการตรวจสุขภาพก่อนเริ่มงานและตรวจตามกำหนด", "opts": ["เพื่อลดค่าใช้จ่ายด้านการรักษาของโรงพยาบาลเท่านั้น", "เพื่อค้นหาความเสี่ยงและโรคจากการทำงานตั้งแต่ระยะแรก", "เพื่อให้พนักงานทุกคนต้องเปลี่ยนอาชีพทันทีที่ป่วย", "เพื่อเพิ่มภาษีให้แก่นายจ้างและหน่วยงานรัฐ"], "ans": 1, "expl": "การตรวจเฝ้าระวังช่วยพบความผิดปกติจากงานได้เร็ว", "mn": "ตรวจสุขภาพคนงาน = เฝ้าระวัง", "uid": "health_03:s044"}, {"no": 45, "dom": 6, "stem": "ช่างเชื่อมโลหะที่สัมผัสแสงอาร์กโดยไม่สวมหน้ากากอาจเกิดภาวะเฉียบพลันใด", "opts": ["กระจกตาอักเสบจากแสง UV (Arc eye)", "ไตวายเฉียบพลันจากรังสีเอกซ์ที่ได้รับทันที", "โรคเบาหวานที่เกิดจากการสัมผัสความร้อนสูง", "ตับแข็งจากสารเคมีที่สูดดมเข้าไปเป็นเวลานาน"], "ans": 0, "expl": "แสงอาร์กมีรังสียูวีทำให้กระจกตาอักเสบ", "mn": "เชื่อม = ตาอักเสบ UV", "uid": "health_03:s045"}, {"no": 46, "dom": 2, "stem": "อาการข้อใดเป็นผลข้างเคียงรุนแรงที่ต้องรีบนำส่งโรงพยาบาลหลังฉีดวัคซีน", "opts": ["ปวดบวมแดงที่แขนบริเวณที่ฉีดวัคซีน", "ผื่นทั่วตัว หายใจลำบาก (ภาวะแพ้รุนแรง)", "ไข้ต่ำและมีอาการง่วงซึมเล็กน้อย", "ปวดศีรษะเล็กน้อยและอ่อนเพลียชั่วคราว"], "ans": 1, "expl": "ภาวะแพ้รุนแรง (Anaphylaxis) เป็นภาวะฉุกเฉิน ต้องรีบรักษา", "mn": "หายใจลำบาก = รุนแรง", "uid": "health_03:s046"}, {"no": 47, "dom": 2, "stem": "วัคซีน HPV ป้องกันการติดเชื้อชนิดใด", "opts": ["เชื้อรา", "ไวรัสเอชพีวี (HPV)", "โปรโตซัวทริโคโมแนส", "แบคทีเรียหนองใน"], "ans": 1, "expl": "HPV = Human Papillomavirus เป็นไวรัส", "mn": "HPV เป็นไวรัส", "uid": "health_03:s047"}, {"no": 48, "dom": 4, "stem": "โรคใดต่อไปนี้เป็นโรคติดต่อที่เกิดจากเชื้อไวรัส", "opts": ["ไข้หวัดใหญ่", "วัณโรค", "ไอกรน", "บาดทะยัก"], "ans": 0, "expl": "ไข้หวัดใหญ่เกิดจากไวรัส Influenza ส่วนที่เหลือเกิดจากแบคทีเรีย", "mn": "ไวรัส vs แบคทีเรีย", "uid": "health_03:s048"}, {"no": 49, "dom": 3, "stem": "จากหลักปฐมพยาบาล 'ไม่ทำให้เลวลง' ข้อใดเป็นการกระทำที่ผิดหลักนี้", "opts": ["ปลอบผู้ป่วยให้ใจเย็นและนอนนิ่งๆ", "กดแผลห้ามเลือดด้วยผ้าสะอาดต่อเนื่อง", "ขยับหรืออุ้มผู้ที่สงสัยกระดูกสันหลังหักโดยไม่ระมัดระวัง", "ตั้งสติและโทรขอความช่วยเหลือ 1669"], "ans": 2, "expl": "การเคลื่อนย้ายผู้สงสัยกระดูกสันหลังหักอาจทำให้ไขสันหลังเสียหายเพิ่ม", "mn": "กระดูกสันหลัง: ห้ามขยับพรวด", "uid": "health_03:s049"}, {"no": 50, "dom": 12, "stem": "สายด่วนที่ใช้ปรึกษาเมื่อได้รับสารพิษหรือกินยาเกินขนาดตามที่เรียนคือหมายเลขใด", "opts": ["1330 (สำนักงานหลักประกันสุขภาพแห่งชาติ)", "1166 (สำนักงานคณะกรรมการคุ้มครองผู้บริโภค)", "1367 (ศูนย์พิษวิทยา รามาธิบดี)", "1111 (ศูนย์บริการข้อมูลภาครัฐ)"], "ans": 2, "expl": "ศูนย์พิษวิทยาให้คำปรึกษาตลอด 24 ชั่วโมง", "mn": "พิษ = 1367", "uid": "health_03:s050"}], "c1": "#3b82f6", "c2": "#1e3a8a"};
+const IMG = {};
+const CONF = {"report_url": "", "leaderboard_url": "", "line_channel_id": "", "gate_url": "https://script.google.com/macros/s/AKfycbwSRnN7fy7oKWIlXuebeYDjfoj7_CLCLr_SECcsLUNavEopNUb6aObcsu4kA2-YvpSR/exec"};
+const pic = (k,c) => IMG[k] ? `<img class="${c||''}" src="${IMG[k]}" alt="">` : '';
+const L = ['ก','ข','ค','ง'];
+const duo = () => `<div class="duo"><div class="lg"><span class="nm" style="font-size:1.15rem">🩺 คลังข้อสอบสุขศึกษา</span></div></div>`;
+const app = document.getElementById('app');
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const BOOK_KEY = 'sukha_wrong_v1', SCORE_KEY = 'sukha_scores_v1';
+const rd = k => { try { return JSON.parse(localStorage.getItem(k)) || {}; } catch (e) { return {}; } };
+const wr = (k, v) => { if (window.KQ_GUEST) return; try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
+
+const LB = CONF.leaderboard_url || '';
+const pidv = (() => { let v = ''; try { v = localStorage.getItem('sukha_pid') || ''; if (!v) { v = 'p' + Math.random().toString(36).slice(2) + Date.now().toString(36); localStorage.setItem('sukha_pid', v); } } catch (e) { v = 'p' + Math.random().toString(36).slice(2); } return v; })();
+const getName = () => { try { return localStorage.getItem('sukha_name') || ''; } catch (e) { return ''; } };
+const setName = n => { try { localStorage.setItem('sukha_name', n); } catch (e) {} };
+const lbGet = (set) => LB ? fetch(LB + '?action=top&pid=' + encodeURIComponent(pidv) + (set ? '&set=' + encodeURIComponent(set) : '')).then(r => r.json()).catch(() => null) : Promise.resolve(null);
+let ITEMS = [], i = 0, score = 0, answers = [];
+const uid = q => q.uid || (DATA.id + ':' + q.no);
+
+function start(){
+  i = 0; score = 0; answers = [];
+  ITEMS = DATA.review ? Object.values(rd(BOOK_KEY)) : DATA.items;
+  if (DATA.review && !ITEMS.length) {
+    app.innerHTML = `<div class="card cover"><h1>📒 สมุดข้อที่ผิด</h1>
+      <p>ยังไม่มีข้อที่ผิดเลย เยี่ยมมาก! 🎉 ไปทำข้อสอบชุดอื่นก่อน ข้อที่ตอบผิดจะมารวมอยู่ที่นี่</p>
+      <a class="btn" style="text-decoration:none;text-align:center" href="index.html">กลับหน้าแรก</a></div>`;
+    return;
+  }
+  const n = ITEMS.length;
+  app.innerHTML = `<div class="card cover">
+    ${DATA.emoji ? `<div class="hero" style="background:linear-gradient(135deg,${DATA.c1||'#0b1f4b'},${DATA.c2||'#1d3f8f'})"><div class="em">${DATA.emoji}</div><h1>${esc(DATA.title)}</h1><p class="sub">${esc(DATA.subtitle)}</p><span class="chip">${esc(DATA.badge || '')}</span></div>
+    <div class="stats"><div><b>${n}</b><small>ข้อ</small></div><div><b>4</b><small>ตัวเลือก</small></div><div><b>ทันที</b><small>เห็นเฉลย</small></div></div>
+    ${duo()}` : `${DATA.coverimg ? `<img class="coverimg" src="${DATA.coverimg}" alt="">` : ''}${duo()}
+    <h1>${esc(DATA.title)}</h1>
+    <p class="sub">${esc(DATA.subtitle)}</p>`}
+    <div class="icons">${(DATA.icons||[]).map(k => pic(k)).join('')}</div>
+    <p class="lbtop" id="lbtop"></p>
+    <p>${esc(DATA.note)}</p>
+    <button class="btn" id="go">เริ่มทำข้อสอบ (${n} ข้อ)</button>
+    ${DATA.review ? '' : `<a href="pdf/${location.pathname.split('/').pop().replace(/\.html$/,'')}.pdf" download style="display:block;text-align:center;margin-top:10px;font-weight:700;color:#0f4c5c">📄 ดาวน์โหลดชุดนี้เป็น PDF (พร้อมเฉลย)</a>`}
+    <p class="kbd">⌨️ กด <b>Enter</b> เพื่อเริ่ม • ตอบด้วยปุ่ม <b>1 2 3 4</b> (= ก ข ค ง)</p></div>`;
+  document.getElementById('go').onclick = show;
+  if (LB && !DATA.review && !window.KQ_GUEST) lbGet().then(d => { const s = d && d.sets && d.sets[DATA.id]; const el = document.getElementById('lbtop');
+    if (s && el) el.innerHTML = `👑 คะแนนสูงสุดชุดนี้: <b>${esc(s.name)}</b> ${s.score}/${s.total}`; });
+}
+
+function show(){
+  const q = ITEMS[i], n = ITEMS.length;
+  const sec = q.sec || (DATA.sections || {})[q.dom] || '';
+  const emo = q.emoji || DATA.emoji || '';
+  app.innerHTML = `<div class="top"><span>ข้อ ${i+1} / ${n}</span><span>คะแนน ${score}</span></div>
+    <div class="bar"><i style="width:${(i/n)*100}%"></i></div>
+    <div class="card">
+      <span class="sec">${emo ? emo + ' ' : ''}${DATA.review ? '' : pic((DATA.section_icons||{})[q.dom])}${esc(sec)}</span>
+      <p class="q">${DATA.review ? '' : 'ข้อ ' + q.no + '. '}${esc(q.stem)}</p>
+      <div id="opts">${q.opts.map((t,k)=>`<button class="opt" data-k="${k}"><span class="k">${k+1}</span>${L[k]}. ${esc(t)}</button>`).join('')}</div>
+      <div id="fb"></div>
+      <button class="btn hide" id="next"></button>
+      ${CONF.report_url ? `<button class="report hide" id="rep">⚠️ แจ้งเฉลย/โจทย์ผิดข้อนี้</button>` : ''}
+    </div>
+    <p class="kbd">⌨️ คีย์ลัด: กด <b>1 2 3 4</b> = ตอบ ก ข ค ง &nbsp;•&nbsp; <b>Enter</b> หรือ <b>Space</b> = ข้อต่อไป</p>`;
+  document.querySelectorAll('.opt').forEach(b => b.onclick = () => pick(+b.dataset.k));
+}
+
+function pick(k){
+  const q = ITEMS[i], right = k === q.ans, id = uid(q);
+  if (right) score++;
+  answers.push({q, picked:k, right});
+  // สมุดข้อที่ผิด: ผิด = จดไว้ / ถูก = เอาออก (จำได้แล้ว)
+  const book = rd(BOOK_KEY);
+  if (right) delete book[id];
+  else book[id] = {uid:id, stem:q.stem, opts:q.opts, ans:q.ans, expl:q.expl||'', mn:q.mn||'',
+                   dom:q.dom, sec:q.sec || (DATA.sections||{})[q.dom] || '', emoji:q.emoji || DATA.emoji || '', set:q.set || DATA.title, no:q.no};
+  wr(BOOK_KEY, book);
+  document.querySelectorAll('.opt').forEach(b => {
+    const j = +b.dataset.k; b.disabled = true;
+    if (j === q.ans) b.classList.add('right');
+    else if (j === k) b.classList.add('wrong');
+  });
+  document.getElementById('fb').innerHTML = `<div class="fb ${right?'ok':'no'}">
+    <b class="h">${right ? '✅ ถูกต้อง!' : '❌ ยังไม่ถูก'}</b>
+    <div>เฉลย: ${L[q.ans]}. ${esc(q.opts[q.ans])}</div>
+    ${q.expl ? `<div style="margin-top:6px">${esc(q.expl)}</div>` : ''}
+    ${q.mn ? `<div class="tip">💡 สูตรจำ: ${esc(q.mn)}</div>` : ''}
+    ${right ? '' : '<div class="note">📒 จดลงสมุดข้อที่ผิดให้แล้ว</div>'}</div>`;
+  const nx = document.getElementById('next');
+  nx.textContent = i === ITEMS.length-1 ? 'ดูคะแนนรวม' : 'ข้อต่อไป';
+  nx.classList.remove('hide');
+  nx.onclick = () => { if (++i < ITEMS.length) show(); else finish(); };
+  const rep = document.getElementById('rep');
+  if (rep) { rep.classList.remove('hide'); rep.onclick = () => report(q); }
+  nx.scrollIntoView({block:'nearest', behavior:'smooth'});
+}
+
+function report(q){
+  const txt = `[แจ้งเฉลย/โจทย์ผิด] ${q.set || DATA.title} ข้อ ${q.no}: ${q.stem}`;
+  try { navigator.clipboard.writeText(txt); } catch (e) {}
+  alert('คัดลอกข้อความแจ้งแล้ว กดวางส่งในหน้าถัดไปได้เลยค่ะ\n\n' + txt);
+  window.open(CONF.report_url, '_blank');
+}
+
+function finish(){
+  const n = ITEMS.length, pct = Math.round(score/n*100);
+  const wrong = answers.filter(a => !a.right);
+  const msg = pct>=80 ? 'เยี่ยมมาก! 🎉' : pct>=60 ? 'ดีเลย อีกนิดเดียว 💪' : 'ลองทบทวนแล้วทำอีกรอบนะ 📖';
+  if (!DATA.review) {
+    const sc = rd(SCORE_KEY), old = sc[DATA.id] || {best:0, tries:0};
+    sc[DATA.id] = {best: Math.max(old.best, score), last: score, total: n, tries: old.tries + 1};
+    wr(SCORE_KEY, sc);
+  }
+  // คะแนนแยกหมวด (เฉพาะชุดที่มีหลายหมวด)
+  const by = {};
+  answers.forEach(a => { const s = a.q.sec || (DATA.sections||{})[a.q.dom] || ''; (by[s] = by[s] || {r:0, t:0}); by[s].t++; if (a.right) by[s].r++; });
+  const rows = Object.entries(by).sort((x, y) => x[1].r/x[1].t - y[1].r/y[1].t);
+  const secHtml = rows.length > 1 ? `<div class="card"><h1>คะแนนแยกหมวด</h1>
+    ${rows.map(([s, v]) => { const p = Math.round(v.r/v.t*100);
+      return `<div class="sb"><div class="sbt"><span>${esc(s)}</span><b>${v.r}/${v.t} (${p}%)</b></div><div class="bar"><i style="width:${p}%"></i></div></div>`; }).join('')}
+    ${rows[0][1].r/rows[0][1].t < 0.7 ? `<p class="weak">📌 จุดอ่อนของคุณ: <b>${esc(rows[0][0])}</b> ควรทบทวนหมวดนี้ก่อน</p>` : '<p class="weak">ทุกหมวดอยู่ในเกณฑ์ดี 👍</p>'}</div>` : '';
+  const nb = Object.keys(rd(BOOK_KEY)).length;
+  app.innerHTML = `<div class="card"><h1>สรุปผล</h1>
+    <div class="score">${score} / ${n}</div>
+    <p style="text-align:center">${pct}% — ${msg}</p>
+    ${DATA.review ? '' : `<a class="btn" style="text-decoration:none;text-align:center;margin-bottom:10px;background:#0f4c5c;display:block" href="pdf/${location.pathname.split('/').pop().replace(/\.html$/,'')}.pdf" download>📄 ดาวน์โหลดชุดข้อสอบนี้ + เฉลย (PDF)</a>`}
+    ${DATA.review ? '' : `<a class="btn" style="text-decoration:none;text-align:center;margin-bottom:10px;display:${nb ? 'block' : 'none'}" href="review.html">📒 ทบทวนสมุดข้อที่ผิด (${nb} ข้อ)</a>`}
+    <button class="btn ${DATA.review && !nb ? 'hide' : ''}" id="again">${DATA.review ? 'ทบทวนข้อที่ยังผิดอีกรอบ' : 'ทำใหม่อีกครั้ง'}</button></div>
+    ${LB && !DATA.review && !window.KQ_GUEST ? `<div class="card" id="lbcard"><h1>🏆 ขึ้นอันดับ</h1>
+      <p class="sub">ใส่ชื่อเล่นเพื่อบันทึกคะแนนขึ้นอันดับ (ไม่บังคับ ชื่อจะแสดงให้ทุกคนเห็น)</p>
+      <div class="lbrow"><input id="lbname" maxlength="20" placeholder="ชื่อเล่น (ไม่เกิน 20 ตัวอักษร)" value="${esc(getName())}"><button class="btn" id="lbsend" style="width:auto;padding:10px 18px">ส่งคะแนน</button></div>
+      <p id="lbmsg" class="sub"></p></div>` : ''}
+    ${secHtml}
+    <div class="card"><h1>ข้อที่ควรทบทวน (${wrong.length})</h1>
+    ${wrong.length ? wrong.map(a => { const q = a.q;
+      return `<div class="rev"><b>${DATA.review ? '' : 'ข้อ ' + q.no + '. '}${esc(q.stem)}</b><br>
+        <small>คุณตอบ: ${L[a.picked]}. ${esc(q.opts[a.picked])}</small><br>
+        <span style="color:var(--ok)">เฉลย: ${L[q.ans]}. ${esc(q.opts[q.ans])}</span>
+        ${q.expl ? `<br><small>${esc(q.expl)}</small>` : ''}${q.mn ? `<div class="tip">💡 ${esc(q.mn)}</div>` : ''}</div>`;
+    }).join('') : '<p>ถูกครบทุกข้อ ไม่มีข้อที่ต้องทบทวน 🎉</p>'}</div>`;
+  const ag = document.getElementById('again'); if (ag) ag.onclick = start;
+  const sb = document.getElementById('lbsend');
+  if (sb) {
+    const send = () => {
+      const name = document.getElementById('lbname').value.trim().slice(0, 20); if (!name) { document.getElementById('lbmsg').textContent = 'ใส่ชื่อก่อนนะคะ'; return; }
+      setName(name); sb.disabled = true; document.getElementById('lbmsg').textContent = 'กำลังส่ง...';
+      fetch(LB, {method:'POST', mode:'no-cors', headers:{'Content-Type':'text/plain'}, body: JSON.stringify({pid:pidv, name, set:DATA.id, score, total:n})})
+        .then(() => new Promise(r => setTimeout(r, 1200))).then(() => lbGet(DATA.id)).then(d => {
+          const m = d && d.me, el = document.getElementById('lbmsg');
+          el.innerHTML = m && m.setRank ? `✅ บันทึกแล้ว! อันดับในชุดนี้ <b>#${m.setRank}</b> จาก ${m.setPlayers} คน • อันดับรวม <b>#${m.overallRank}</b> (${m.points} คะแนนรวม)` : '✅ ส่งคะแนนแล้ว';
+        }).catch(() => { document.getElementById('lbmsg').textContent = 'ส่งไม่สำเร็จ ลองใหม่อีกครั้ง'; sb.disabled = false; });
+    };
+    sb.onclick = send;
+    document.getElementById('lbname').addEventListener('keydown', e => { if (e.key === 'Enter') send(); });
+  }
+  window.scrollTo(0,0);
+}
+// คีย์ลัด: 1-4 = ตอบ (ก-ง), Enter/Space/→ = ไปต่อ / เริ่ม / ทำใหม่
+document.addEventListener('keydown', e => {
+  if (e.metaKey || e.ctrlKey || e.altKey || e.isComposing) return;
+  const t = e.target; if (t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)) return;
+  const vis = el => el && !el.classList.contains('hide');
+  if (/^[1-4]$/.test(e.key)) {
+    const b = document.querySelector('.opt[data-k="' + (+e.key - 1) + '"]');
+    if (b && !b.disabled) { e.preventDefault(); b.click(); }
+    return;
+  }
+  if (e.key === 'Enter' || e.key === ' ' || e.key === 'ArrowRight') {
+    const el = [document.getElementById('next'), document.getElementById('go'), document.getElementById('again')].find(vis);
+    if (el) { e.preventDefault(); if (document.activeElement) document.activeElement.blur(); el.click(); }
+  }
+});
+document.addEventListener('keyup', e => { if (e.key === ' ') e.preventDefault(); });
+start();
+</script>
+</body>
+</html>
